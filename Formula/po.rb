@@ -3,8 +3,8 @@ require "language/go"
 class Po < Formula
   desc "A command-line tool for organizing project-specific scripts"
   homepage "https://github.com/weavejester/po"
-  url "https://github.com/weavejester/po/archive/0.1.0.tar.gz"
-  sha256 "481f94dd4a98506bbfb882106f7ed81262d3c4fffa66eaa8819e58cf90ff4d2f"
+  url "https://github.com/weavejester/po/archive/0.1.1.tar.gz"
+  sha256 "b6cb6c71c4d0e184b7429379d58948925bf500164489ce845a098a03294e1281"
 
   depends_on "go" => :build
 
