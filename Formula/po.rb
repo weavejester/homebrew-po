@@ -6,6 +6,12 @@ class Po < Formula
   url "https://github.com/weavejester/po/archive/0.1.1.tar.gz"
   sha256 "b6cb6c71c4d0e184b7429379d58948925bf500164489ce845a098a03294e1281"
 
+  bottle do
+    root_url "https://homebrew.bintray.com/bottles-po"
+    cellar :any_skip_relocation
+    sha256 "685b3f6ece7e5050344812495e53d7e53796e53456585f533cfba13aa9bc5d31" => :mojave
+  end
+
   depends_on "go" => :build
 
   go_resource "github.com/fatih/color" do
