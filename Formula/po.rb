@@ -44,7 +44,6 @@ class Po < Formula
   end
 
   test do
-    puts version
-    system "#{bin}/po", "--version"
+    assert_match "po version #{version}", shell_output("#{bin}/po --version")
   end
 end
